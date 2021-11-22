@@ -8,6 +8,12 @@ export default function Login() {
     <div id="login">
       <div id="loginCard">
         <h2 id="wlc">Welcome to ReaderChat</h2>
+        <span id="span">
+          This project is build with help of Firebase, Google Auth, and{" "}
+          <a href="https://chatengine.io/" target="_blank" rel="noreferrer">
+            Chat engine
+          </a>
+        </span>
         <div
           className="loginBtn google"
           onClick={() =>

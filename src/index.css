@@ -8,12 +8,19 @@
   height: 100%;
 }
 #login {
-  background-image: linear-gradient(#2a9d8f, #f4a261);
+  background-image: linear-gradient(#0c83c2, #ff7301);
   position: absolute;
   top: 0px;
   bottom: 0px;
   left: 0px;
   right: 0px;
+}
+#span {
+  padding: 10px;
+  height: 50px;
+}
+a {
+  color: black;
 }
 #loginCard {
   position: relative;
@@ -22,6 +29,11 @@
   padding-top: 36px;
   padding-bottom: 66px;
   width: 420px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   text-align: center;
   background-color: white;
   border-radius: 5px;
@@ -33,13 +45,9 @@
   border-radius: 8px;
   display: inline-block;
 }
-.facebook {
-  background-color: #e76f51;
-  font-weight: 300;
-}
 
 .google {
-  background-color: #2a9d8f;
+  background-color: #0c83c2;
   color: white;
   font-weight: 300;
 }
@@ -57,7 +65,7 @@
 .nav {
   width: 100%;
   height: 66px;
-  background-color: #002766;
+  background-color: #0c83c2;
 }
 .logo {
   position: absolute;
