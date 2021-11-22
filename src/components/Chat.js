@@ -62,8 +62,8 @@ export default function Chat() {
           });
         });
     }
-  }, [user, history]);
-  //   if (user || loading) return "Loading...";
+    if (!user || loading) return "Loading...";
+  }, [user, history, loading]);
   return (
     <div className="chat">
       <div className="nav">

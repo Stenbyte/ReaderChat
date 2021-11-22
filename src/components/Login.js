@@ -1,5 +1,5 @@
 import React from "react";
-import { GoogleOutlined, FacebookOutlined } from "@ant-design/icons";
+import { GoogleOutlined } from "@ant-design/icons";
 import firebase from "firebase/compat/app";
 import { auth } from "../firebase";
 
@@ -15,15 +15,6 @@ export default function Login() {
           }
         >
           <GoogleOutlined /> Sign In with Google
-        </div>
-        <br /> <br />
-        <div
-          className="loginBtn facebook"
-          onClick={() =>
-            auth.signInWithRedirect(new firebase.auth.FacebookAuthProvider())
-          }
-        >
-          <FacebookOutlined /> Sign In with Facebook
         </div>
       </div>
     </div>
